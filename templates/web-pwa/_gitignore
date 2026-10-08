@@ -1,0 +1,5 @@
+
+# Web
+node_modules/
+dist/
+.cache/

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{PROJECT_NAME}}</title>
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <style>
+    :root { --bg: #ffffff; --fg: #1a1a1a; --accent: #3b6cf6; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #f0f0f0; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg); }
+    main { max-width: 640px; margin: 0 auto; padding: 24px 16px; }
+    button { min-height: 44px; padding: 0 20px; border: 0; border-radius: 10px;
+             background: var(--accent); color: #fff; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>{{PROJECT_NAME}}</h1>
+    <p>Заготовка PWA. Попроси Claude: «/plan сделай первый экран…»</p>
+  </main>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+  </script>
+</body>
+</html>

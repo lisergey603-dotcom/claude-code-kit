@@ -1,0 +1,4 @@
+- HTML, CSS, JavaScript без сборщика
+- PWA: `manifest.json` + `sw.js` (версия кеша — `CACHE_VERSION`)
+- Хостинг: GitHub Pages (`.github/workflows/deploy-pages.yml`), пути только относительные
+- Агент для задач: `web-dev`, скилл: `pwa-checklist`

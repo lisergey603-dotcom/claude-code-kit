@@ -1,0 +1,3 @@
+- Локальный просмотр: `python3 -m http.server 8000` → http://localhost:8000
+- Деплой: push в main → GitHub Pages (включить в Settings → Pages → Source: GitHub Actions)
+- Релиз: поднять `CACHE_VERSION` в `sw.js`, затем `/release 1.0.0`

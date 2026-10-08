@@ -1,0 +1,4 @@
+- Python 3.11+, aiogram 3, APScheduler, pydantic-settings
+- Настройки — `.env` (шаблон `.env.example`)
+- Часовой пояс расписания — Europe/Moscow
+- Агент для задач: `python-bot-dev`, скилл: `telegram-bot`

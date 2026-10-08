@@ -1,0 +1,4 @@
+- Android, Kotlin, Gradle (Kotlin DSL)
+- UI: <!-- Compose или XML -->
+- Сборка APK — GitHub Actions (`.github/workflows/build-apk.yml`), локального SDK может не быть
+- Агент для задач: `android-dev`, скилл: `android-apk-ci`

@@ -1,0 +1,5 @@
+- Debug APK: `./gradlew assembleDebug` (или push в main → артефакт в Actions)
+- Тесты: `./gradlew test`
+- Логи CI: `gh run list --limit 5`, `gh run view <id> --log-failed`
+- Скачать APK из CI: `gh run download <id>`
+- Релиз: `/release 1.0.0`, затем `git push && git push --tags`

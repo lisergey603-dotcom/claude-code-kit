@@ -1,0 +1,3 @@
+- Установка: `python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
+- Запуск: `cp .env.example .env` (вписать токен), затем `python -m bot`
+- Проверка: `ruff check .`, `python -m pytest -q`
